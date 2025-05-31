@@ -16,7 +16,7 @@ client = genai.Client(api_key=GEMINI_API_KEY)
 @st.cache_resource
 def initialize_rag():
     logger.info("Initializing RAG from persistent storage")
-    return RAGPreprocessor(google_api_key=GEMINI_API_KEY)
+    return RAGPreprocessor()
 
 # Initialize the chat history in session state
 if "messages" not in st.session_state:

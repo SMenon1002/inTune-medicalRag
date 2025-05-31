@@ -1,3 +1,2 @@
-1. Improper pdf ingestion
 2. Image handling
 3. Merge tables that are on multiple pages

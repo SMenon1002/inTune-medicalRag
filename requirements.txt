@@ -1,16 +1,22 @@
 streamlit>=1.24.0
-google-generativeai>=0.3.0
-chromadb>=0.4.15
+google-generativeai==0.3.2
+chromadb==0.4.22
 tiktoken>=0.6.0
-numpy>=1.24.3
+numpy==1.26.4
 scikit-learn>=1.3.0
-PyPDF2>=3.0.0
-tabula-py>=2.9.0
-pandas>=2.0.3
-python-dotenv>=1.0.0
-tqdm>=4.66.0
+PyPDF2==3.0.1
+tabula-py==2.9.0
+pandas==2.2.0
+python-dotenv==1.0.1
+tqdm==4.66.2
 JPype1==1.4.1
-langchain>=0.0.335
+langchain==0.1.9
+langchain-community==0.0.24
+langchain-core==0.1.27
 pypdf>=3.17.1
 sentence-transformers>=2.2.2
-pytest>=7.4.0  # For running evaluation tests 
+pytest>=7.4.0  # For running evaluation tests
+pdfplumber==0.10.3
+pdf2image==1.17.0
+transformers==4.37.2
+torch==2.2.0 
