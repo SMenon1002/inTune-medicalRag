@@ -1,0 +1,183 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "Ground truth data for medical RAG system evaluation",
+        "domain": "medical_guidelines"
+    },
+    "evaluation_criteria_schema": {
+        "content_completeness": "Measures if the key information points are present, regardless of their order or structure",
+        "clinical_accuracy": "Measures if the medical/clinical statements are factually correct",
+        "context_relevance": "Measures if the answer addresses the specific question asked",
+        "answer_clarity": "Measures if the information is understandable, regardless of structure",
+        "source_adherence": "Measures if the information matches the source material"
+    },
+    "documents": {
+        "doc1": {
+            "name": "adult hypertension",
+            "answers": {
+                "ans1": {
+                    "answer": "Four main themes were identified: uncertainty about blood pressure measurement, achieving consensus in practice, accommodating patient differences and addressing systematic barriers.",
+                    "required_elements": [
+                        "uncertainty about blood pressure measurement",
+                        "achieving consensus in practice",
+                        "accommodating patient differences",
+                        "addressing systematic barriers"
+                    ],
+                    "evaluation_criteria": {
+                        "content_completeness": "Contains all four themes in any order",
+                        "clinical_accuracy": "Themes match GP management context",
+                        "context_relevance": "Addresses themes from GP perspective",
+                        "answer_clarity": "Themes are distinguishable from each other",
+                        "source_adherence": "Themes match source material"
+                    }
+                },
+                "ans2": {
+                    "answer": "Participants were uncertain whether patients should wear the device during a 'typical' day and whether it is a valid measure in obese patients. Participants expressed uncertainty regarding the best way to measure, record and interpret BP. Although there was some lingering distrust of digital machines, general acceptance of their use was evident across the groups but participants were unclear on how, where and how often digital machines and mercury sphygmomanometers needed to be calibrated. Some uncertainty remains about the validity of ambulatory BP monitoring and the interpretation of results.",
+                    "required_elements": [
+                        "Device usage timing concerns",
+                        "Validity in obese patients",
+                        "Measurement and interpretation uncertainty",
+                        "Calibration concerns",
+                        "Ambulatory monitoring validity"
+                    ],
+                    "evaluation_criteria": {
+                        "content_completeness": "Includes device usage, measurement, and monitoring concerns",
+                        "clinical_accuracy": "Technical details are correct",
+                        "context_relevance": "Reflects GP perspective on monitoring",
+                        "answer_clarity": "Concerns are understandable",
+                        "source_adherence": "Matches source concerns"
+                    }
+                },
+                "ans3": {
+                    "answer": "Effectively and efficiently implementing this vital information and translating it into routine clinical care remains the great challenge.",
+                    "evaluation_criteria": {
+                        "content_completeness": "Mentions both implementation and translation",
+                        "clinical_accuracy": "Challenge reflects clinical reality",
+                        "context_relevance": "Addresses clinical practice context",
+                        "answer_clarity": "Challenge is understandable",
+                        "source_adherence": "Matches source material"
+                    }
+                },
+                "ans4": {
+                    "answer": "To improve patient willingness to participate in treatment, the following strategies were suggested: patient education, use of cardiovascular risk assessment tools, self monitoring of BP, and consistent BP measurement and management.",
+                    "required_elements": [
+                        "patient education",
+                        "cardiovascular risk assessment",
+                        "self-monitoring",
+                        "consistent measurement"
+                    ],
+                    "evaluation_criteria": {
+                        "content_completeness": "Lists all four strategies",
+                        "clinical_accuracy": "Strategies are valid approaches",
+                        "context_relevance": "Addresses patient participation",
+                        "answer_clarity": "Strategies are understandable",
+                        "source_adherence": "Matches source recommendations"
+                    }
+                },
+                "ans5": {
+                    "answer": "Home BP monitoring incurred a cost to practices because machines lent out were often not returned. From a business perspective practices did not want to charge patients for the hire of machines due to increased administration and goods and services tax implications.",
+                    "required_elements": [
+                        "Unreturned devices cost",
+                        "Business perspective",
+                        "Administrative burden",
+                        "Tax implications"
+                    ],
+                    "evaluation_criteria": {
+                        "content_completeness": "Includes cost and business barriers",
+                        "clinical_accuracy": "Practice management issues are correct",
+                        "context_relevance": "Addresses financial perspective",
+                        "answer_clarity": "Issues are understandable",
+                        "source_adherence": "Matches source concerns"
+                    }
+                }
+            }
+        },
+        "doc2": {
+            "name": "child hypertension",
+            "answers": {
+                "ans6": {
+                    "answer": "Secondary hypertension is more common in younger children (<6 years old) with renal disease being the most prevalent cause.",
+                    "required_elements": [
+                        "Age group specification",
+                        "Secondary hypertension prevalence",
+                        "Renal disease as main cause"
+                    ],
+                    "evaluation_criteria": {
+                        "content_completeness": "Includes age, prevalence, and cause",
+                        "clinical_accuracy": "Medical information is correct",
+                        "context_relevance": "Addresses pediatric context",
+                        "answer_clarity": "Information is understandable",
+                        "source_adherence": "Matches guidelines"
+                    }
+                },
+                "ans7": {
+                    "answer": "Headache, vomiting, vision changes and neurological symptoms (facial nerve palsy, lethargy, seizures, coma) +/- target-end organ damage.",
+                    "required_elements": [
+                        "Headache",
+                        "Vomiting",
+                        "Vision changes",
+                        "Neurological symptoms",
+                        "Target organ damage"
+                    ],
+                    "evaluation_criteria": {
+                        "content_completeness": "Lists all major symptoms",
+                        "clinical_accuracy": "Symptoms are correct",
+                        "context_relevance": "Specific to encephalopathy",
+                        "answer_clarity": "Symptoms are understandable",
+                        "source_adherence": "Matches clinical presentation"
+                    }
+                },
+                "ans8": {
+                    "answer": "Blood pressure should be measured annually in healthy children.",
+                    "evaluation_criteria": {
+                        "content_completeness": "States frequency and population",
+                        "clinical_accuracy": "Recommendation is correct",
+                        "context_relevance": "Addresses healthy children",
+                        "answer_clarity": "Recommendation is clear",
+                        "source_adherence": "Matches guidelines"
+                    }
+                },
+                "ans9": {
+                    "answer": "Increase physical activity, aiming 40 minutes moderate to vigorous exercise 3–5 days/week. Consider counselling/behavioural techniques to help address weight management and metabolic risk.",
+                    "required_elements": {
+                        "exercise": {
+                            "duration": "40 minutes",
+                            "frequency": "3-5 days/week",
+                            "intensity": "moderate to vigorous"
+                        },
+                        "behavioral": {
+                            "counseling": true,
+                            "weight_management": true,
+                            "metabolic_risk": true
+                        }
+                    },
+                    "evaluation_criteria": {
+                        "content_completeness": "Includes exercise and behavioral aspects",
+                        "clinical_accuracy": "Parameters are correct",
+                        "context_relevance": "Suitable for children",
+                        "answer_clarity": "Recommendations are understandable",
+                        "source_adherence": "Matches guidelines"
+                    }
+                },
+                "ans10": {
+                    "answer": "Medical management should be commenced if: Conservative measures have failed, symptomatic hypertension develops, Stage 2 hypertension with no modifiable risk factors, or hypertension in setting of chronic kidney disease/diabetes.",
+                    "required_elements": {
+                        "criteria": [
+                            "Conservative measures failure",
+                            "Symptomatic hypertension",
+                            "Stage 2 hypertension",
+                            "CKD/diabetes presence"
+                        ]
+                    },
+                    "evaluation_criteria": {
+                        "content_completeness": "Lists all initiation criteria",
+                        "clinical_accuracy": "Criteria are correct",
+                        "context_relevance": "Specific to pediatric care",
+                        "answer_clarity": "Criteria are understandable",
+                        "source_adherence": "Matches guidelines"
+                    }
+                }
+            }
+        }
+    }
+}

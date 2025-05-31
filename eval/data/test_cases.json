@@ -1,0 +1,29 @@
+{
+    "metadata": {
+        "version": "1.0",
+        "description": "Test cases for medical RAG system evaluation",
+        "domain": "medical_guidelines"
+    },
+    "documents": {
+        "doc1": {
+            "name": "adult hypertension",
+            "questions": {
+                "q1": "What were the four main themes identified by GPs regarding hypertension management in the study?",
+                "q2": "What concerns did GPs express about using digital BP machines and interpreting ambulatory BP monitoring?",
+                "q3": "What did GPs identify as a major challenge in translating hypertension guidelines into clinical practice?",
+                "q4": "What did GPs suggest to improve patient willingness to participate in hypertension treatment?",
+                "q5": "What were the financial concerns raised by GPs regarding home BP monitoring?"
+            }
+        },
+        "doc2": {
+            "name": "child hypertension",
+            "questions": {
+                "q6": "What is the most common cause of secondary hypertension in children under 6 years old?",
+                "q7": "What symptoms may indicate hypertensive encephalopathy in children?",
+                "q8": "When should blood pressure be measured in healthy children?",
+                "q9": "What lifestyle modifications are recommended for managing hypertension in children?",
+                "q10": "When should medical management of pediatric hypertension be initiated?"
+            }
+        }
+    }
+}
