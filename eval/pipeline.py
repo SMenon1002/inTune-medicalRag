@@ -96,15 +96,21 @@ class EvalPipeline:
         with open(self.config.ground_truth_path) as f:
             return json.load(f)
     
-    def get_rag_response(self, query: str, context: str = None) -> str:
+    def get_rag_response(self, query: str, context: str = None) -> Tuple[str, Dict[str, Any]]:
         """Generate a response using the RAG system."""
         # Get relevant context from ChromaDB if not provided
+        retrieved_context = {}
         if context is None:
             results = self.rag_prep.collection.query(
                 query_texts=[query],
                 n_results=3
             )
             context = "\n".join(results['documents'][0])
+            retrieved_context = {
+                'documents': results['documents'][0],
+                'metadatas': results['metadatas'][0],
+                'distances': results['distances'][0]
+            }
             
         formatted_prompt = f"{SYSTEM_PROMPT}\n\n**Context:**\n{context}\n\n**User query:**\n{query}"
         
@@ -125,7 +131,7 @@ class EvalPipeline:
             config=generate_config,
         )
         
-        return "".join(chunk.text for chunk in response_stream if chunk.text)
+        return "".join(chunk.text for chunk in response_stream if chunk.text), retrieved_context
 
     def evaluate_response(self, 
                          response: str, 
@@ -245,7 +251,7 @@ Return exactly five numbers between 0 and 1, one per line, without any additiona
             for q_id, question in doc_data["questions"].items():
                 try:
                     # Generate response using RAG
-                    response = self.get_rag_response(question)
+                    response, retrieved_context = self.get_rag_response(question)
                     
                     # Get corresponding ground truth
                     ans_id = f"ans{q_id[1:]}"  # Convert q1 to ans1
@@ -258,6 +264,7 @@ Return exactly five numbers between 0 and 1, one per line, without any additiona
                     self.results["evaluations"][doc_id]["questions"][q_id] = {
                         "question": question,
                         "response": response,
+                        "retrieved_context": retrieved_context,
                         "evaluation": evaluation,
                         "timestamp": time.time()
                     }
