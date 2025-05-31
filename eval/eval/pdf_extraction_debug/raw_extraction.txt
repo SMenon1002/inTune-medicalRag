@@ -1,0 +1,238 @@
+
+================================================================================
+PAGE 1
+================================================================================
+Clinical Practice Guidelines : Hypertension in children and adolescents https://www.rch.org.au/clinicalguide/guideline_index/hypertension/
+Hypertension in children and
+adolescents
+See also
+Online paediatric BP centile calculator (https://www.mdcalc.com/aap-pediatric-hypertension-guidelines#pearls-
+pitfalls)
+BP by age and height centile tables: boys (https://publications.aap.org/view-large/7674617)girls (https://
+publications.aap.org/view-large/7674618)
+Key points
+1. Severe hypertension requires urgent consultation and management. Hypertension associated with
+encephalopathy is a medical emergency
+2. All hypertension in children requires monitoring and follow-up
+3. Blood pressure should be measured annually in healthy children
+4. Where possible, abnormal machine BP measurement should be confirmed, preferably with a manual BP,
+ensuring appropriately sized cuff is used for accurate measurement
+Background
+• This guideline will focus on the paediatric population aged 1–17 years (not infants)
+• Hypertension in childhood is a key predictor of risk for hypertension, cardiovascular disease and end organ
+damage in adulthood
+• Primary/essential hypertension accounts for the majority of hypertension in children >6 years old and is
+generally associated with obesity or a family history of hypertension
+• Secondary hypertension is more common in younger children (<6 years old) with renal disease being the most
+prevalent cause. This population is at greater risk of hypertensive emergencies due to an underlying condition
+Assessment
+Risk factors
+• Overweight/obesity
+• Male sex
+• Family history of hypertension
+• Low birth weight/intrauterine growth restriction
+• Prematurity
+• Excess dietary salt intake
+1 of 8 31/05/2025, 6:57 pm
+================================================================================
+PAGE 2
+================================================================================
+Clinical Practice Guidelines : Hypertension in children and adolescents https://www.rch.org.au/clinicalguide/guideline_index/hypertension/
+• Physical inactivity
+• Chronic health concerns, eg chronic kidney disease, diabetes
+Causes of Hypertension
+Primary Hypertension
+Situational Hypertension
+Stress, pain, anxiety
+Secondary Hypertension
+Renal parenchymal disease GN, polycystic kidneys, CKI
+Cardiac, Vascular Renal artery stenosis, Coarctation repair (pre and
+post)
+Endocrine Diabetes, thyroid disease, CAH, Diabetes, thyroid
+disease, CAH, Cushings
+Autoimmune Thrombotic thrombocytopenic purpura, Haemolytic
+Uraemic Syndrome, Henoch-Schönlein Purpura
+(https://www.rch.org.au/clinicalguide/guideline_index/
+HenochSchonlein_Purpura/)
+Genetic/Syndromic Neurofibromatosis, Williams Syndrome, Turners
+Syndrome
+Malignancy Wilms tumour, neuroblastoma, pheochromocytoma
+Intracranial pathology Intracranial haemorrhage/stroke, pituitary adenoma,
+raised ICP
+Respiratory Chronic lung disease, OSA
+Drug-induced Corticosteroids, OCP, stimulants
+History
+• Headache/vomiting
+• Blurred vision
+• Change in mental state
+• Seizures
+• Chest pain/palpitations
+• Shortness of breath
+• Cardiac failure
+2 of 8 31/05/2025, 6:57 pm
+================================================================================
+PAGE 3
+================================================================================
+Clinical Practice Guidelines : Hypertension in children and adolescents https://www.rch.org.au/clinicalguide/guideline_index/hypertension/
+• Past history of Acute Kidney Injury (AKI)
+Examination
+• Confirm hypertension (See measuring blood pressure section below)
+• Vitals:tachycardia, four limb BP for upper and lower limb discrepancy
+• Height and weight:obesity, growth retardation
+• Signs of end organ damage
+• Fundoscopy:hypertensive retinopathy
+• Cardiovascular: apical heave, hepatomegaly, oedema
+• Chronic renal failure: palpable kidneys
+• Focal neurology eg facial nerve palsies
+• Signs of underlying cause
+• General appearance:Cushingoid, proptosis, goitre, webbed neck (Turner syndrome), elfin facies (William
+syndrome)
+• Skin:Cafe-au-lait spots, neurofibromas, acanthosis nigricans, hirsutism, striae, acne, rash (vasculitis)
+• Cardiovascular: murmurs +/- radiation, apical heave, reduced femoral pulses, oedema, hepatomegaly (CCF)
+• Abdomen:masses, palpable kidneys, flank bruits
+• Genitourinary:ambiguous/virilised genitalia eg CAH
+Key points when measuring blood pressure(See video) (https://www.broadcastmed.com/cardiology/3979/videos/
+blood-pressure-measurement-in-children)
+Ensure the correct cuff size is selected for each patient, favouring a larger rather than smaller cuff (smaller cuff
+creates artificial hypertension)
+• BP cuff width should be 40% of the length of the arm measure from the shoulder tip to the elbow
+• Abnormal oscillatory BP measurement needs checking with a manual BP from the child's arm
+The table below identifies BP levels requiring further evaluation, starting with repeating the BP manually ensuring
+accurate measurement
+*Screening BP Values Requiring Further Evaluation
+Age (years) Blood pressure (mmHg)
+Boys Girls
+Systolic Diastolic Systolic Diastolic
+1 98 52 98 54
+2 100 55 101 58
+3 101 58 102 60
+4 102 60 103 62
+5 103 63 104 64
+3 of 8 31/05/2025, 6:57 pm
+================================================================================
+PAGE 4
+================================================================================
+Clinical Practice Guidelines : Hypertension in children and adolescents https://www.rch.org.au/clinicalguide/guideline_index/hypertension/
+6 105 66 105 67
+7 106 68 106 68
+8 107 69 107 69
+9 107 70 108 71
+10 108 72 109 72
+11 110 74 111 74
+12 113 75 114 75
+≥13 120 80 120 80
+*90th centile for a child at average height
+Assessment of severity
+Interpreting blood pressure measurement
+An online blood pressure centile calculator (https://www.mdcalc.com/aap-pediatric-hypertension-
+guidelines#pearls-pitfalls)specific for gender, age and height can be used to determine the severity of
+hypertension
+Blood pressure classification in children and adolescents
+For children aged 1 to 13 years For children aged 13-17 years
+Normal blood <90th centile <120/<80 mmHg
+pressure
+Elevated blood ≥90th centile to <95th centile or 120/80 120/<80 to 129/<80 mmHg
+pressure mmHg to <95th centile (whichever is lower)
+Stage 1 ≥95th centile to <95th centile + 12 mmHg or 130/80 to 139/89 mmHg
+Hypertension 130/80 to 139/89 mmHg (whichever is lower)
+Stage 2 ≥95th centile + 12 mmHg, or ≥140/90 mmHg ≥140/90 mmHg
+Hypertension (whichever is lower)
+Severe Hypertension
+Hypertensive >95th centile + 30 mmHg without symptoms/signs >180/120
+Urgency of target end organ damage (See Examination) without symptoms/signs of target
+end organ damage (See
+Examination)
+4 of 8 31/05/2025, 6:57 pm
+================================================================================
+PAGE 5
+================================================================================
+Clinical Practice Guidelines : Hypertension in children and adolescents https://www.rch.org.au/clinicalguide/guideline_index/hypertension/
+Hypertensive >95th centile + 30 mmHg associated with >180/120
+Emergency encephalopathy, associated with encephalopathy,
+eg headache vomiting, vision changes and eg headache vomiting, vision
+neurological symptoms (facial nerve palsy, changes and neurological
+lethargy, seizures, coma) +/- target-end organ symptoms (facial nerve palsy,
+damage lethargy, seizures, coma) +/-
+target-end organ damage
+Management
+Emergency management of severe hypertension
+• Discuss with renal team and retrieval/ICU team
+5 of 8 31/05/2025, 6:57 pm
+================================================================================
+PAGE 6
+================================================================================
+Clinical Practice Guidelines : Hypertension in children and adolescents https://www.rch.org.au/clinicalguide/guideline_index/hypertension/
+Hypertensive urgency
+If medically stable, consider short acting oral agents while investigating cause
+• Nifedipine
+• Commence 0.25–0.5 mg/kg/day (max 20 mg) and titrate up as required to a maximum of 3 mg/kg/day (max
+120 mg)
+Hypertensive emergency
+• Intravenous therapy; discuss with renal team and retrieval/ICU team
+• Aim to gradually reduce BP to the patient's estimated 95th centile
+• Decrease BP by 25% of the original value every 24 hours till target BP reached. Reduce rate of decrease if
+patient becomes symptomatic
+Hypertension without severe features
+6 of 8 31/05/2025, 6:57 pm
+================================================================================
+PAGE 7
+================================================================================
+Clinical Practice Guidelines : Hypertension in children and adolescents https://www.rch.org.au/clinicalguide/guideline_index/hypertension/
+Investigations
+First-line investigations
+• UEC, CMP, urinalysis +/- renal ultrasound
+• Consider LFT, Hb1Ac, fasting lipids particularly in children with BMI >95th centile
+Further investigations should only be considered in consultation with a general or renal paediatrician
+Consider further testing if child meets one of the following criteria:
+• <6 years
+• Concerns for secondary causes on history/examination
+• Abnormal first-line investigations
+Further Investigations
+• Bloods: FBE, Bicarbonate, renin/aldosterone ratio, TFT, plasma metanephrins, cortisol, fasting glucose
+• Urine: microscopy, protein/creatinine ratio, catecholamines, drug screen
+• Imaging: renal doppler ultrasound, DMSA, CTA/MRA
+• Other: echocardiogram, sleep study
+Lifestyle counselling
+Dietary modifications
+• Rich in fresh fruit and vegetables/legumes, fish, poultry, lean red meat and low fat dairy
+• Limit intake of high sodium, fat or sugar containing foods
+Lifestyle modifications
+• Increase physical activity, aiming 40 minutes moderate to vigorous exercise 3-5 days/week
+• Consider counselling/behavioural techniques to help address weight management and metabolic risk
+Medical management
+Should be commenced if:
+7 of 8 31/05/2025, 6:57 pm
+================================================================================
+PAGE 8
+================================================================================
+Clinical Practice Guidelines : Hypertension in children and adolescents https://www.rch.org.au/clinicalguide/guideline_index/hypertension/
+• Conservative measures have failed
+• Symptomatic hypertension develops
+• Stage 2 hypertension with no modifiable risk factors
+• Hypertension in setting of chronic kidney disease/diabetes
+Medical management should only be commenced in consultation with a general or renal paediatrician
+• Long-acting calcium channel blockers such as amlodipine are recommended as first line therapy. Other
+medication may be preferred in children with BMI >95th centile, diabetes or proteinuria
+Consider consultation with local paediatric team when
+• Red flags (see history section above) or ongoing concerns are present
+• Hypertensive urgency or hypertensive emergency
+• Medical management of hypertension is required
+Consider transfer when
+Child requiring care beyond the comfort level of the hospital
+For emergency advice and paediatric or neonatal ICU transfers, see Retrieval Services (https://www.rch.org.au/
+clinicalguide/guideline_index/Retrieval_services/)
+Consider discharge when
+Hypertensive children without severe features may be discharged with appropriate follow-up (See flowchart)
+Parent information
+See Parent resources (https://www.rch.org.au/clinicalguide/guideline_index/Parent_Resources/)
+Additional notes
+How to Measure Blood Pressure – American Academy of Pediatrics (https://www.broadcastmed.com/
+cardiology/3979/videos/blood-pressure-measurement-in-children) (video)
+Last updated June 2021
+ Reference List
+Dionne, J. Updated guideline may improve the recognition and diagnosis of hypertension in children and
+adolescents; review of the 2017 AAP blood pressure clinical practice guideline. Current Hypertension Reports.
+2017. vol 19 (10), p84.
+Flynn, J.T et al. Clinical practice guideline for screening and management of high blood pressure in children and
+adolescents. Pediatrics. 2017 vol 140 (3)
+8 of 8 31/05/2025, 6:57 pm

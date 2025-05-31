@@ -3,6 +3,7 @@ from typing import Dict, List, Tuple
 import PyPDF2
 import tabula
 import pandas as pd
+import pdfplumber
 
 class PDFExtractor:
     def __init__(self, pdf_path: str):
@@ -13,19 +14,39 @@ class PDFExtractor:
 
     def extract_text(self) -> Dict[int, str]:
         """
-        Extract text from all pages of the PDF.
+        Extract text from all pages of the PDF using both PyPDF2 and pdfplumber.
         Returns a dictionary with page numbers as keys and extracted text as values.
         """
         text_content = {}
         
-        with open(self.pdf_path, 'rb') as file:
-            # Create PDF reader object
-            pdf_reader = PyPDF2.PdfReader(file)
-            
-            # Extract text from each page
-            for page_num in range(len(pdf_reader.pages)):
-                page = pdf_reader.pages[page_num]
-                text_content[page_num + 1] = page.extract_text()
+        # Try pdfplumber first
+        with pdfplumber.open(self.pdf_path) as pdf:
+            for page_num, page in enumerate(pdf.pages, 1):
+                try:
+                    # Extract text with pdfplumber
+                    text = page.extract_text(x_tolerance=3, y_tolerance=3)
+                    if text and len(text.strip()) > 0:
+                        text_content[page_num] = text
+                    else:
+                        # Fallback to PyPDF2 if pdfplumber returns empty text
+                        with open(self.pdf_path, 'rb') as file:
+                            pdf_reader = PyPDF2.PdfReader(file)
+                            fallback_text = pdf_reader.pages[page_num - 1].extract_text()
+                            if fallback_text and len(fallback_text.strip()) > 0:
+                                text_content[page_num] = fallback_text
+                            else:
+                                print(f"Warning: Both extractors failed to get text from page {page_num}")
+                                text_content[page_num] = ""
+                except Exception as e:
+                    print(f"Error extracting text from page {page_num}: {str(e)}")
+                    # Fallback to PyPDF2
+                    try:
+                        with open(self.pdf_path, 'rb') as file:
+                            pdf_reader = PyPDF2.PdfReader(file)
+                            text_content[page_num] = pdf_reader.pages[page_num - 1].extract_text()
+                    except Exception as e2:
+                        print(f"Fallback extraction also failed for page {page_num}: {str(e2)}")
+                        text_content[page_num] = ""
         
         return text_content
 
@@ -38,7 +59,10 @@ class PDFExtractor:
         tables = tabula.read_pdf(
             self.pdf_path,
             pages='all',
-            multiple_tables=True
+            multiple_tables=True,
+            guess=True,
+            lattice=True,
+            stream=True
         )
         
         # Group tables by page
@@ -77,6 +101,8 @@ def process_pdfs(pdf_paths: List[str]) -> Dict[str, Dict]:
             }
             
             print(f"Successfully processed: {pdf_path}")
+            print(f"Pages with text: {sorted(text_content.keys())}")
+            print(f"First page text length: {len(text_content.get(1, ''))}")
             
         except Exception as e:
             print(f"Error processing {pdf_path}: {str(e)}")
